@@ -160,16 +160,17 @@ header {
 .fact-card-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
     margin-top: 100px;
 }
 
 .fact-card {
     border: 1px solid #FF900E;
-    padding: 45px 35px 59px ;
-    margin: 0 auto;
+    padding: 45px 0;
     text-align: center;
     border-radius: 8px;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     
@@ -186,4 +187,25 @@ header {
     font-weight: 600;
     color: #727272;
     margin-top: 10px;
+}
+
+/* Sponsors Styles */
+
+.sponsors-container .sponsors-head {
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-logo {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    
+    
+}
+
+.sponsors-logo img {
+    filter: grayscale(100%);
+    margin: 0 auto;
 }
