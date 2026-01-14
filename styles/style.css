@@ -32,6 +32,10 @@
     font-size: 2.9rem;
     font-weight: bold;
     color:#131313;
+    
+}
+
+.margin-bottom{
     margin-bottom: 24px;
 }
 
@@ -84,7 +88,9 @@ header {
 
 #nav-container .nav-item{
     gap: 30px;
+    
 }
+
 
 .nav-item li {
     list-style: none;
@@ -130,6 +136,8 @@ header {
     gap: 24px;
     margin-right: 76px;
 }
+
+
 
 #quick {
     color: #727272;
