@@ -209,3 +209,59 @@ header {
     filter: grayscale(100%);
     margin: 0 auto;
 }
+
+/* Speciality related style  */
+
+.speciality-container{
+    gap: 146px;
+}
+
+.speciality-content {
+    max-width: 580px;
+}
+
+
+.speciality-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.speciality-card{
+    padding: 30px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+.speciality-card h4 {
+    font-size: 1.1rem;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.speciality-image img {
+    width: 100%;
+}
+
+.speciality-image button {
+    padding: 45px 42px;
+    position: relative;
+    left: -92px;
+    top: -100px;
+}
+
+#year {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 70px;
+    display: block;
+
+}
+#experience {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+
+}
