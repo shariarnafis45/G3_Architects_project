@@ -24,8 +24,6 @@
 }
 
 
-
-
 .orange-bg{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -104,6 +102,10 @@ header {
 
 .nav-item li a {
     text-decoration: none;
+}
+
+.hide {
+    display: none;
 }
 
 
@@ -244,11 +246,20 @@ header {
     width: 100%;
 }
 
-.speciality-image button {
+.speciality-image .speciality-btn {
     padding: 45px 42px;
     position: relative;
     left: -92px;
     top: -100px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 32px;
 }
 
 #year {
