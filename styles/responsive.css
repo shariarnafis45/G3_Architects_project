@@ -29,8 +29,9 @@
     }
 
     .speciality-image .speciality-btn {
+        display: flex;
+        justify-content: center;
         position: static;
-        margin-left: 30%;
 
     }
 
