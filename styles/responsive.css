@@ -44,3 +44,73 @@
         gap: 50px;
     }
 }
+
+
+/* Mobile Device styles 576px */
+
+@media screen and (max-width:576px) {
+    #nav-container ,#team , .speciality-container {
+        flex-direction: column;
+    }
+
+    #nav-container ,#team {
+        gap: 30px;
+    }
+
+    .nav-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .heading-primary , #year{
+        font-size: 2rem;
+    }
+
+    #experience , .footer-container p ,{
+        font-size: 1rem;
+    }
+
+    .speciality-container{
+        gap: 70px;
+    }
+    .team-image ,.speciality-content {
+        margin: 0 auto;
+    }
+
+    .team-content{
+        margin-top: 30px;
+    }
+
+    .team-content , .fact-head {
+        text-align: center;
+    }
+
+    .team-content  {
+        max-width: 570px;
+    }
+
+    .speciality-image .speciality-btn {
+        display: flex;
+        justify-content: center;
+        position: static;
+
+    }
+
+    .fact-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .sponsors-logo {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .footer-container{
+        margin-bottom: 30px;
+    }
+}
